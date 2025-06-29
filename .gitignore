@@ -1,0 +1,77 @@
+# JetBrains IDEs: IntelliJ, PyCharm, CLion, Android Studio, WebStorm и Rider
+# Основано на https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательские настройки
+.idea/*
+
+*.pyc
+
+# AWS пользовательские настройки
+.idea/**/aws.xml
+
+# Генерируемые файлы
+.idea/**/contentModel.xml
+
+# Чувствительные или часто изменяемые файлы
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle и Maven с автоимпортом
+# При использовании автоимпорта раскомментируйте следующие строки:
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# Файловый формат проекта
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+# Crashlytics plugin (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# Полное игнорирование папки .idea (раскомментируйте если не нужна)
+# .idea
